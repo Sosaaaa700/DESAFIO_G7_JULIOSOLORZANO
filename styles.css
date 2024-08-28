@@ -1,8 +1,13 @@
 body {
     font-family: Arial, sans-serif;
     margin: 20px;
+    display: flex;
+    flex-direction: column;
 }
-
+html, body {
+    height: 100%;
+    margin: 0;
+}
 textarea {
     width: 100%;
     padding: 10px;
@@ -24,4 +29,13 @@ button:hover {
 
 .output {
     margin-top: 20px;
+}
+
+footer {
+    margin-top: auto;
+    text-align: center;
+    padding: 1rem 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
 }
